@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 export default function Form({ handleSubmit, handleChange, novaTarefa }) {
   return (
     <form onSubmit={handleSubmit} action="#" className="form">
-      <input onChange={handleChange} type="text" value={novaTarefa} />
+      <input onChange={handleChange} type="text" placeholder="Digite alguma tarefa" value={novaTarefa} />
       <button type="submit"> <FaPlus /></button>
     </form>
   );

@@ -2,31 +2,31 @@
   margin-top: 30px;
   display: flex;
   align-items: center;
-  justify-content: center;
+
 
 }
 
 .form input[type="text"] {
   height: 40px;
-  padding: 0 20px;
+  padding: 0 25px;
   font-size: 20px;
   border: .6px solid rgb(231, 231, 231);
   min-width: 80%;
-  color: #3d3d3d;
   background-color: #e9e8e8;
+  color: rgb(231, 231, 231);
+  margin-left: 1%;
 }
 
 
 
 .form button[type="submit"] {
   border: none;
-  height: 40px;
-  width: 40px;
+  height: 41.2px;
+  width: 45px;
   background: #E09D00;
   color: rgb(231, 231, 231);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  margin-left: -40px;
 }
