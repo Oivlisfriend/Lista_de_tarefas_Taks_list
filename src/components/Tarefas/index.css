@@ -11,12 +11,12 @@
 }
 
 .tarefas li:hover {
-  background-color: #01140F;
+  background-color: #e0e0e0;
 }
 
 .tarefas li .edit {
   margin-right: 15px;
-  color: rgb(170, 166, 166)
+  color: rgb(136, 133, 133)
 }
 
 .tarefas li .delete {

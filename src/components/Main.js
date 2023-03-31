@@ -28,7 +28,7 @@ export default class Main extends Component {
     let { novaTarefa } = this.state;
     const { index } = this.state;
     novaTarefa = novaTarefa.trim();
-    if (tarefas.indexOf(novaTarefa) !== -1) return;
+    if (tarefas.indexOf(novaTarefa) !== -1 || novaTarefa.length === 0) return;
     const novasTarefas = [...tarefas];
     if (index === -1) {
       this.setState({
@@ -72,7 +72,7 @@ export default class Main extends Component {
     const { novaTarefa, tarefas } = this.state;
     return (
       <div className="main">
-        <h1>Lista de tarefas</h1>
+        <h1>Lista de Tarefas</h1>
         <Form
           handleSubmit={this.handleSubmit}
           handleChange={this.handleChange}

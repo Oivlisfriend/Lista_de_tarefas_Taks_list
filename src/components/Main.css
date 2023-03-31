@@ -1,11 +1,13 @@
 .main {
-  background-color: #044E3A;
+  background-color: #cacaca;
   padding: 30px;
   margin: 50px auto;
   max-width: 540px;
   border-radius: 4px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  color: rgb(255, 255, 255);
+  color: #3d3d3d;
+  font-family: 'Open Sans', Arial, sans-serif;
+
 }
 
 .main h1 {
